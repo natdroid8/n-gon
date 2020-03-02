@@ -72,7 +72,7 @@ const b = {
   },
   mods: [{
       name: "depleted uranium rounds",
-      description: `your <strong>bullets</strong> are +13% larger<br>increased mass and physical <strong class='color-d'>damage</strong>`,
+      description: `your <strong>bullets</strong> are +14% larger<br>increased mass and physical <strong class='color-d'>damage</strong>`,
       count: 0,
       maxCount: 9,
       allowed() {
@@ -80,7 +80,7 @@ const b = {
       },
       requires: "minigun, shotgun, super balls, foam",
       effect() {
-        b.modBulletSize += 0.13
+        b.modBulletSize += 0.14
       },
       remove() {
         b.modBulletSize = 1;
